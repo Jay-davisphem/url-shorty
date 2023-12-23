@@ -69,6 +69,75 @@ The system follows a microservices architecture to ensure scalability and modula
 3. Optionally, customize the short URL.
 4. Access the shortened URL and verify redirection.
 
+# User Stories
+
+## As an authenticated user, I want to:
+
+### 1. Shorten URLs
+
+**Scenario**: As a user, I want to be able to shorten a long URL into a shorter, more manageable link.
+
+### 2. Customize Shortened URLs
+
+**Scenario**: As a user, I want the option to customize the short URL to something more meaningful or personalized.
+
+### 3. View My Shortened URLs
+
+**Scenario**: As a user, I want to view a list of all the URLs I've shortened.
+
+### 4. Track Clicks and Analytics
+
+**Scenario**: As a user, I want to see analytics for each shortened URL, including the number of clicks and location data.
+
+## As an unauthenticated user, I want to:
+
+### 1. Shorten URLs
+
+**Scenario**: As an unauthenticated user, I want to be able to shorten a long URL without needing to sign in.
+
+### 2. Access Shortened URLs
+
+**Scenario**: As an unauthenticated user, I want to access shortened URLs created by others.
+
+## Additional Functionalities:
+
+### 1. Expire or Delete Shortened URLs
+
+**Scenario**: As a user, I want the ability to expire or delete shortened URLs when they're no longer needed.
+
+### 2. Redirect Users
+
+**Scenario**: As a user, I want the shortened URL to redirect users seamlessly to the original long URL.
+
+### 3. Metrics for Popular URLs
+
+**Scenario**: As a user, I want to view metrics for the most popular or frequently clicked shortened URLs.
+
+### 4. URL Validation
+
+**Scenario**: As a user, I want the system to validate the entered URLs to ensure they are valid and accessible.
+
+### 5. API Access
+
+**Scenario**: As a developer, I want access to APIs for shortening URLs programmatically.
+
+### 6. Rate Limiting
+
+**Scenario**: As a user, I want the system to have rate limiting to prevent abuse or excessive URL shortening.
+
+### 7. User Authentication
+
+**Scenario**: As a user, I want the option to sign in/sign up to manage my shortened URLs.
+
+### 8. QR Codes for Shortened URLs
+
+**Scenario**: As a user, I want the system to generate QR codes for shortened URLs for easy sharing and access.
+
+### 9. URL Expiry Notifications
+
+**Scenario**: As a user, I want to receive notifications when shortened URLs are about to expire.
+
+
 ## Contribution
 
 Contributions are welcome! If you want to contribute, follow these steps:
